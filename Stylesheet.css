@@ -1,0 +1,308 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.container-fliud{
+    padding: 7% 15%;
+}
+.fluid{
+    padding: 7% 15%;
+}
+#title .fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+
+.colored-section{
+    background-color: brown;
+    color:black;
+}
+
+/*navgation bar*/
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+ 
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:indigo;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* download button*/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*title section*/
+
+#title .container-fliud{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 3.5rem;
+    lighting-color: 1.5;
+    padding-top: 3%;
+}
+
+.big-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 3.5rem;
+    lighting-color: 1.5;
+    color:white;
+}
+
+.content{
+    color:white;
+}
+
+.container-fluid{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    /*animation: slidebg 8s linear infinite 8s;
+    animation-timing-function: ease-in-out;*/
+    background-image: url("nature.jpg" );
+
+
+}
+
+.icon{
+    color: blueviolet;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: green;
+}
+
+#features{
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-title{
+    width: 50%;
+    margin: 100px auto 100ox auto;
+    text-align: left;
+    font-size: 30px;
+}
+hr{
+    border-style: none;
+    border-top-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    width: 80%;
+    margin: 50px auto 80px auto;
+}
+
+.project{
+    padding-top: 50px;
+}
+
+.prj{
+    padding-bottom: 50px;
+}
+
+.prj{
+    padding-left: 60px;
+}
+
+.card-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.vdo-section{
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 700;
+     font-size: 3.5rem;
+     line-height: 1.5;
+     padding: 50px;
+ }
+.vdo-title{
+     padding-bottom: 100px;
+}
+.team-info{
+    margin-left: 300px;
+}
+.team{
+    text-align: center;
+}
+
+.team-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height:1.5;
+    padding: 50px;
+}
+
+.team-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 53%;
+    margin-top: 30px;
+}
+
+.contact{
+    background-color: turquoise;
+    padding-bottom: 40px;
+}
+
+.contact-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.contact-form{
+    width: 200%;
+    height: 50vh;
+    background-size: cover;
+}
+
+.name{
+    padding-right: 150px;
+}
+
+.email{
+    padding-right: 15px;
+}
+
+.subject{
+    padding-right: 150px;
+}
+
+.message{
+    padding-right: 150px;
+}
+
+.maps{
+    padding-top: 50px;
+}
+
+.btn-primary{
+    width: 400px;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.last-section{
+    background-color: aliceblue;
+    padding: 40px 40px 20px 40px;
+    color: black;
+}
+
+.office{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+#pricing{
+    background-color: white;
+    padding-top: 80px;
+}
+.grid{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    align-items:center;
+}
+
+.grid h3{
+    padding-top: 1rem;
+}
+
+.grid.text p{
+    color: gray;
+    font-weight: 600;
+}
+
+.grid > article{
+    background: blue;
+    border: none;
+    box-shadow: 2px 2px 6ox 0px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    transition: transform .3s;
+}
+
+ .grid > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px black;
+}
+
+.container .text{
+    padding: 0 20px 20px;
+}
+
+.text button{
+    background-color: green;
+    border-radius: 20px;
+    border:none;
+    color: aliceblue;
+    padding: 10px;
+    width:100%;
+    font-weight:600;
+    text-transform:uppercase;
+    cursor: pointer;
+
+}
+
+.text button:hover{
+    background: red;
+}
+
+.caroussel-container{
+    overflow: hidden;
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+.caroussel{
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+}
+
+
+
+
+
